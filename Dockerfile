@@ -6,6 +6,7 @@ COPY nginx.conf /etc/nginx/conf.d/default.conf
 ARG PORT=${PORT}
 ARG BACKEND=${BACKEND}
 ARG FRONTEND=${FRONTEND}
+ARG REPORT=${REPORT}
 
 # Expõe a porta que o Railway vai usar
 EXPOSE 80
